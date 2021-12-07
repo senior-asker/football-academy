@@ -1,0 +1,366 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+/*START HEADER*/
+
+body{
+  width: 100%;
+}
+
+.social-logo{
+  height: auto;
+  width: 400px;
+}
+
+.football-logo img{
+  width: 120px;
+  height: auto;
+}
+
+header.page-header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #ecf0f1;
+  margin: 0;
+  align-items: center;
+}
+
+nav.main-menu ul{
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  margin: 0;
+}
+
+.social-menu{
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;;
+}
+
+.fab{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 50%;
+  background-color: #000000;
+  color: #ecf0f1;
+}
+
+.menu-link{
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+  'Lucida Grande', 'Lucida Sans Unicode', 
+  Geneva, Verdana, sans-serif;
+}
+
+.main-menu{
+  width: 400px;
+}
+
+.main-menu a{
+  text-decoration: none;
+  color: #000000;
+}
+
+/*END HEADER*/
+
+
+
+/*START COVER*/
+
+.main-photo{
+  width: 100%;
+  height: auto;
+  background-color: #000;
+  filter: brightness(40%);
+}
+
+h1,
+h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+  'Lucida Grande', 'Lucida Sans Unicode', 
+  Geneva, Verdana, sans-serif;
+}
+
+.txt-name-school {
+  position: absolute;
+	top: 400px;
+	width: 100%;
+  font-size: 54px;
+  color: #ecf0f1; 
+}
+
+.txt-tagline {
+  position: absolute;
+	top: 500px;
+	width: 100%;
+  font-size: 24px;
+  color: #ecf0f1;
+}
+
+/*END COVER*/
+
+
+
+/*START EXCELLENCE*/
+
+.txt-target-school{
+  color: #000;
+  font-size: 44px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+  'Lucida Grande', 'Lucida Sans Unicode', 
+  Geneva, Verdana, sans-serif;
+}
+
+.excellence{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card-protect{
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: auto;
+  padding: 20px;
+  align-items: center;
+  background-color: #F7F7F7;
+}
+
+.card-handshake{
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: auto;
+  padding: 20px;
+  align-items: center;
+  background-color: #F7F7F7;
+}
+
+.cards-excellence{
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: auto;
+  padding: 20px;
+  align-items: center;
+  background-color: #F7F7F7;
+}
+
+.image{
+  width: 90px;
+  height: auto;
+}
+
+p{
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+  'Lucida Grande', 'Lucida Sans Unicode', 
+  Geneva, Verdana, sans-serif;
+}
+
+.txt-ex{
+  padding-top: 20px;
+}
+
+/*END EXCELLENCE*/
+
+
+
+/*START GALLERY*/
+
+.container-image{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.photo-slides{
+  display: flex;
+  flex-direction: column;
+}
+
+.team-image{
+  width: 460px;
+  height: 360px;
+}
+/*END GALLERY*/
+
+
+/*START TIME TRANING*/
+
+.traning-time{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ecf0f1;
+}
+
+.time-lessons{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+
+.days-lessons{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+
+.image-traning{
+  width: 60px;
+  height: auto;
+}
+
+.txt-time{
+  font-size: 28px;
+  color: #000; 
+  padding: 0;
+  margin: 0;
+}
+
+.txt-days{
+  font-size: 28px;
+  color: #000;
+  padding: 0;
+  margin: 0;
+}
+
+.descrip-time{
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+}
+
+.descrip-days{
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+}
+/*END TIME TRANING*/
+
+/*START SEND FORM*/
+
+.txt-form{
+  color: #000;
+  text-align: center;
+  font-size: 44px;
+  margin: 0;
+  padding: 0;
+}
+
+.descrip-form{
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  font-size: 26px;
+}
+
+.sign-up-form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fill-form{
+  display: flex;
+  flex-direction: column;
+  color: #000;
+}
+
+#txt-name-player{
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+#txt-phone-player{
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+#txt-phone-parents{
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+#txt-birthday-player{
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+#name-player{
+  width: 730px;
+  height: 60px;
+  padding: 0 20px;
+  font-size: 16px;
+}
+
+#phone-player{
+  width: 730px;
+  height: 60px;
+  padding: 0 20px;
+  font-size: 16px;
+}
+
+#phone-parents{
+  width: 730px;
+  height: 60px;
+  padding: 0 20px;
+  font-size: 16px;
+}
+
+#player-birthday{
+  width: 730px;
+  height: 60px;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+#send-button{
+  width: 202px;
+  height: 60px;
+  padding: 20px;
+  font-weight: 700;
+  border-radius: 10%;
+  background-color: #fff70f;
+  border-color: #fff70f;
+  color: #000;  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+  'Lucida Grande', 'Lucida Sans Unicode', 
+  Geneva, Verdana, sans-serif;
+}
+
+
+#file{
+  width: 780px;
+}
+/*END SEND FORM*/
+
+/*FOOTER*/
+
+.footer-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  background-color: #000;
+  padding: 20px;
+}
+
+.map{
+  padding-right: 20px;
+}
+/*END FOOTER*/
